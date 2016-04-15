@@ -1,36 +1,25 @@
-# Permalinks
-permalink:        pretty
+# Site settings
 
-# Setup
-url:              http://qwtel.com
+title: Strata # Title of your site
+email: your-email@domain.com # Your contant email
 
-# Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /hydejack
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-title:            Hydejack
+# Social links.
+# Replace the word 'example' with your username if you want to include the icon in the left sidebar
+# Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
-description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [@qwtel](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+twitter_username:     example  # Replace this with your Twitter username
+github_username:      example  # Replace this with your GitHub username
+linkedin_username:    example  # Replace this with your LinkedIn username
+google_plus_username: example  # Replace this with your Google+ username
+facebook_username:    example  # Replace this with your Facebook username
+dribbble_username:    example  # Replace this with your Dribbble username
 
-# The tags listed as entries in the sidebar
-sidebar_tags:     [jekyll, hyde]
-
-# Fallback image and color if not overwritten for tag or post
-image:            /hydejack/public/img/nap.jpg
-color:            '#A85641'
-
-author:
-  name:           'Florian Klampfer'
-  twitter:        qwtel
-  github:         qwtel
-  photo:          http://qwtel.com/public/img/flo.jpg
-
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
-
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+# Build settings
+markdown: kramdown
